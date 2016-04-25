@@ -6,8 +6,6 @@ Safe nested lookups utilising tagged template literals functionality
 
 # Usage
 
-You can either import the whole library or just specific functions if you prefer explicit dependencies.
-
 ```js
 // use whatever alias you like
 const g = require('safetyfirst');
