@@ -1,6 +1,6 @@
 # Safety First
 
-A very tiny promise util library, designed to work with native Promise functionality. https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise
+Safe nested lookups utilising tagged template literals functionality
 
 [![npm version](https://img.shields.io/npm/v/safetyfirst.svg?style=flat-square)](https://www.npmjs.com/package/safetyfirst)
 
