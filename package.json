@@ -1,0 +1,22 @@
+{
+  "name": "safetyfirst",
+  "version": "0.0.1",
+  "description": "Safe nested lookups utilising tagged template literals functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": {
+    "name": "Jordan Drake",
+    "email": "jordan@jdrake.co.uk",
+    "url": "https://github.com/jordrake"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josscode/safetyfirst"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "2.4.5"
+  }
+}
