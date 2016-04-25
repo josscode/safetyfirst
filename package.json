@@ -1,8 +1,16 @@
 {
   "name": "safetyfirst",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Safe nested lookups utilising tagged template literals functionality",
-  "keywords": ["safe", "lookup", "get", "tag", "es6", "template", "nested"],
+  "keywords": [
+    "safe",
+    "lookup",
+    "get",
+    "tag",
+    "es6",
+    "template",
+    "nested"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "mocha"
