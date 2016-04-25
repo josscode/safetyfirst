@@ -1,6 +1,6 @@
 {
   "name": "safetyfirst",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Safe nested lookups utilising tagged template literals functionality",
   "main": "index.js",
   "scripts": {
