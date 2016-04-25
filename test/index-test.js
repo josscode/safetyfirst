@@ -23,6 +23,8 @@ describe('Safety First', () => {
         };
 
         assert.equal(safeGet`${target}.foo.bar[1]`, 'quux');
+        assert.equal(safeGet`${target}[foo][bar][1]`, 'quux');
+        assert.equal(safeGet`${target}['foo']['bar'][1]`, 'quux');
     });
 
     it('safe get with dynamic string ', () => {
