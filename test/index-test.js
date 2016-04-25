@@ -15,6 +15,16 @@ describe('Safety First', () => {
         assert.equal(safeGet`${target}.foo.bar.baz`, 'quux');
     });
 
+    it('safe get with unknown property', () => {
+        const target = {
+            foo: {}
+        };
+
+        assert.equal(safeGet`${target}.foo.bar`, undefined);
+        assert.equal(safeGet`${target}.foo.bar.baz`, undefined);
+        assert.equal(safeGet`${target}.foo.bar[10].baz`, undefined);
+    });
+
     it('safe get with square brackets', () => {
         const target = {
             foo: {
